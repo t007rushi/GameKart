@@ -1,31 +1,9 @@
-body {
-  font-family: sans-serif;
-}
-:root {
-  --hmpg-secondary-color: #455a64;
-}
 .home-content {
   margin: 1rem;
 }
 .home-img {
   width: 40rem;
   height: 40rem;
-}
-
-.flex-row {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.flex-col {
-  display: flex;
-  flex-direction: column;
-  gap: 0.5rem;
-}
-
-.center-it {
-  align-items: center;
-  justify-content: center;
 }
 
 .home-intro {
