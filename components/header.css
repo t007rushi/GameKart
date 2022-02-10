@@ -1,0 +1,50 @@
+.header-bar {
+  align-items: center;
+  justify-content: space-around;
+  background-color:var(--white-color); 
+  color:var(--head-primary);
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding:1rem;
+  z-index: 100;
+}
+
+.header-left {
+  width: 20rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.web-logo{
+align-items: center;
+gap: 0.5rem;
+}
+
+.header-mid {
+  background-color: var(--white-color);
+  color: var(--head-primary);
+  width: 20rem;
+  border: 0.1rem solid var(--head-primary);
+  border-radius:0.4rem;
+  padding: 0.2rem;
+}
+
+.search-bar {
+  width: 100%;
+  border: none;
+}
+
+.header-right{
+  width: 22rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.cart{
+  font-size: 1rem;
+  cursor: pointer;
+  gap: 0.5rem;
+  align-items: center;
+}
