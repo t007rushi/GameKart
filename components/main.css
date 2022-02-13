@@ -1,5 +1,6 @@
 @import url(./header.css);
 @import url(./homepg.css);
+@import url(./filter.css);
 
 * {
   margin: 0;
