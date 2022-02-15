@@ -1,6 +1,7 @@
 @import url(./header.css);
 @import url(./homepg.css);
 @import url(./filter.css);
+@import url(./wishlist.css);
 
 * {
   margin: 0;
