@@ -25,6 +25,7 @@ padding-bottom: 1rem;
 
 .fav-icon{
     font-size: 2.5rem;
+    color: var(--head-primary);
 }
 .red-clr{
     padding: 0.6rem;
