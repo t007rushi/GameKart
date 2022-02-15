@@ -1,0 +1,405 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://pushpa-ui.netlify.app/documentation/doc.css"
+    />
+    <link rel="stylesheet" href="../components/main.css" />
+  </head>
+  <body>
+    <header class="flex-row header-bar">
+      <div class="flex-row header-left">
+        <i style="font-size: 2.5rem" class="material-icons"> menu </i>
+
+        <h1 class="flex-row web-logo">
+          <span style="font-size: 2.5rem" class="material-icons">
+            sports_esports </span
+          >GameKart
+        </h1>
+      </div>
+      <div class="flex-row header-mid">
+        <i class="material-icons"> search </i>
+        <input type="text" placeholder="Search" class="search-bar" />
+      </div>
+      <div class="flex-row header-right">
+        <button class="btn primary-btn">LOGIN</button>
+        <i class="material-icons"> favorite_border </i>
+        <div class="flex-row cart">
+          CART
+          <i class="material-icons"> shopping_cart </i>
+        </div>
+        <span class="material-icons"> logout </span>
+      </div>
+    </header>
+
+    <div class="main-content">
+      <!-- Filter left side nav -->
+
+      <div class="left-side-filter flex-col">
+        <div class="flex-row spc-btwn">
+          <h4>Filter</h4>
+          <h4 class="txt-underline">Clear</h4>
+        </div>
+
+        <div class="sort">
+          <h4>SORT</h4>
+          <select name="" id="">
+            <option value="low">low to high</option>
+            <option value="high">low to high</option>
+            <option value="high">new arival</option>
+            <option value="high">top rated</option>
+            <option value="high">discount</option>
+          </select>
+        </div>
+        <div class="filter-wrap flex-col">
+          <label for="price"><h4>Price Range</h4></label>
+          <div class="flex-row spc-btwn">
+            <h5>0</h5>
+            <h5>2500</h5>
+            <h5>5000</h5>
+          </div>
+
+          <input
+            type="range"
+            name="price"
+            id="prange"
+            min="0"
+            max="5000"
+            value="2500"
+          />
+        </div>
+        <div class="type filter-wrap flex-col">
+          <h2>Categories</h2>
+          <div class="flex-row spac_bord">
+            <input type="checkbox" name="" id="" />
+            <label for="Games">Games</label>
+          </div>
+          <div class="flex-row spac_bord">
+            <input type="checkbox" name="" id="" />
+            <label for="console">console</label>
+          </div>
+          <div class="flex-row spac_bord">
+            <input type="checkbox" name="" id="" />
+            <label for="accessories">Accessories</label>
+          </div>
+        </div>
+        <div class="condition filter-wrap flex-col">
+          <h2>Conditions</h2>
+          <div class="flex-row spac_bord">
+            <input type="radio" name="cond" id="cond1" />
+            <label for="cond1">Pre Owned</label>
+          </div>
+          <div class="flex-row spac_bord">
+            <input type="radio" name="cond" id="cond2" />
+            <label for="cond2">New</label>
+          </div>
+          <div class="flex-row spac_bord">
+            <input type="radio" name="cond" id="cond3" />
+            <label for="cond3">Pre Order</label>
+          </div>
+        </div>
+        <div class="condition filter-wrap flex-col">
+          <h2>User Ratings</h2>
+          <div class="flex-row spac_bord">
+            <input type="radio" name="cond" id="cond1" />
+            <label for="cond1">4-Star & above</label>
+          </div>
+          <div class="flex-row spac_bord">
+            <input type="radio" name="cond" id="cond2" />
+            <label for="cond2">3-Star & above</label>
+          </div>
+          <div class="flex-row spac_bord">
+            <input type="radio" name="cond" id="cond3" />
+            <label for="cond3">2-Star & above</label>
+          </div>
+          <div class="flex-row spac_bord">
+            <input type="radio" name="cond" id="cond3" />
+            <label for="cond3">All</label>
+          </div>
+        </div>
+        <div class="genre filter-wrap flex-col">
+          <h2>Genre</h2>
+          <div class="check flex-row spac_bord">
+            <input type="checkbox" name="" id="" />
+            <label for="action">action</label>
+          </div>
+          <div class="check flex-row spac_bord">
+            <input type="checkbox" name="" id="" />
+            <label for="adventure">adventure</label>
+          </div>
+          <div class="check flex-row spac_bord">
+            <input type="checkbox" name="" id="" />
+            <label for="racing">racing</label>
+          </div>
+          <div class="check flex-row spac_bord">
+            <input type="checkbox" name="" id="" />
+            <label for="sports">sports</label>
+          </div>
+          <div class="check flex-row spac_bord">
+            <input type="checkbox" name="" id="" />
+            <label for="dance">dance</label>
+          </div>
+          <div class="check flex-row spac_bord">
+            <input type="checkbox" name="" id="" />
+            <label for="FPS">FPS</label>
+          </div>
+        </div>
+      </div>
+      <!-- right side content -->
+      <div class="right-side-main">
+        <h1>Showing Products(274)</h1>
+
+        <div class="right-side">
+          <div class="card">
+            <img class="card-img" src="../assets/products/p1.jpg" alt="demo" />
+            <div class="card-info">
+              <h5 class="card-title">God of War</h5>
+              <p class="description">PEGI Rating: Ages 16 and Above</p>
+              <div class="card-rating">
+                4.5 <span class="material-icons star-icon"> star </span>
+              </div>
+
+              <span class="card-price"
+                ><sup>₹</sup>2,970<s>5,499</s
+                ><span class="card-discount">Save 2,529 (46%)</span></span
+              >
+              <button class="card-btn primary-btn">BUY NOW</button>
+              <button class="card-btn card-icon-btn">
+                <span class="material-icons icon"> shopping_cart </span>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="../assets/products/p2.png" alt="demo" />
+            <div class="card-info">
+              <h5 class="card-title">God of War</h5>
+              <p class="description">PEGI Rating: Ages 16 and Above</p>
+              <div class="card-rating">
+                4.5 <span class="material-icons star-icon"> star </span>
+              </div>
+
+              <span class="card-price"
+                ><sup>₹</sup>2,970<s>5,499</s
+                ><span class="card-discount">Save 2,529 (46%)</span></span
+              >
+              <button class="card-btn primary-btn">BUY NOW</button>
+              <button class="card-btn card-icon-btn">
+                <span class="material-icons icon"> shopping_cart </span>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="../assets/products/p3.png" alt="demo" />
+            <div class="card-info">
+              <h5 class="card-title">God of War</h5>
+              <p class="description">PEGI Rating: Ages 16 and Above</p>
+              <div class="card-rating">
+                4.5 <span class="material-icons star-icon"> star </span>
+              </div>
+
+              <span class="card-price"
+                ><sup>₹</sup>2,970<s>5,499</s
+                ><span class="card-discount">Save 2,529 (46%)</span></span
+              >
+              <button class="card-btn primary-btn">BUY NOW</button>
+              <button class="card-btn card-icon-btn">
+                <span class="material-icons icon"> shopping_cart </span>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="../assets/products/p4.jpg" alt="demo" />
+            <div class="card-info">
+              <h5 class="card-title">God of War</h5>
+              <p class="description">PEGI Rating: Ages 16 and Above</p>
+              <div class="card-rating">
+                4.5 <span class="material-icons star-icon"> star </span>
+              </div>
+
+              <span class="card-price"
+                ><sup>₹</sup>2,970<s>5,499</s
+                ><span class="card-discount">Save 2,529 (46%)</span></span
+              >
+              <button class="card-btn primary-btn">BUY NOW</button>
+              <button class="card-btn card-icon-btn">
+                <span class="material-icons icon"> shopping_cart </span>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="../assets/products/p5.png" alt="demo" />
+            <div class="card-info">
+              <h5 class="card-title">God of War</h5>
+              <p class="description">PEGI Rating: Ages 16 and Above</p>
+              <div class="card-rating">
+                4.5 <span class="material-icons star-icon"> star </span>
+              </div>
+
+              <span class="card-price"
+                ><sup>₹</sup>2,970<s>5,499</s
+                ><span class="card-discount">Save 2,529 (46%)</span></span
+              >
+              <button class="card-btn primary-btn">BUY NOW</button>
+              <button class="card-btn card-icon-btn">
+                <span class="material-icons icon"> shopping_cart </span>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="../assets/products/p6.jpg" alt="demo" />
+            <div class="card-info">
+              <h5 class="card-title">God of War</h5>
+              <p class="description">PEGI Rating: Ages 16 and Above</p>
+              <div class="card-rating">
+                4.5 <span class="material-icons star-icon"> star </span>
+              </div>
+
+              <span class="card-price"
+                ><sup>₹</sup>2,970<s>5,499</s
+                ><span class="card-discount">Save 2,529 (46%)</span></span
+              >
+              <button class="card-btn primary-btn">BUY NOW</button>
+              <button class="card-btn card-icon-btn">
+                <span class="material-icons icon"> shopping_cart </span>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="../assets/products/p7.jpg" alt="demo" />
+            <div class="card-info">
+              <h5 class="card-title">God of War</h5>
+              <p class="description">PEGI Rating: Ages 16 and Above</p>
+              <div class="card-rating">
+                4.5 <span class="material-icons star-icon"> star </span>
+              </div>
+
+              <span class="card-price"
+                ><sup>₹</sup>2,970<s>5,499</s
+                ><span class="card-discount">Save 2,529 (46%)</span></span
+              >
+              <button class="card-btn primary-btn">BUY NOW</button>
+              <button class="card-btn card-icon-btn">
+                <span class="material-icons icon"> shopping_cart </span>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="../assets/products/p8.jpg" alt="demo" />
+            <div class="card-info">
+              <h5 class="card-title">God of War</h5>
+              <p class="description">PEGI Rating: Ages 16 and Above</p>
+              <div class="card-rating">
+                4.5 <span class="material-icons star-icon"> star </span>
+              </div>
+
+              <span class="card-price"
+                ><sup>₹</sup>2,970<s>5,499</s
+                ><span class="card-discount">Save 2,529 (46%)</span></span
+              >
+              <button class="card-btn primary-btn">BUY NOW</button>
+              <button class="card-btn card-icon-btn">
+                <span class="material-icons icon"> shopping_cart </span>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="../assets/products/p9.jpg" alt="demo" />
+            <div class="card-info">
+              <h5 class="card-title">God of War</h5>
+              <p class="description">PEGI Rating: Ages 16 and Above</p>
+              <div class="card-rating">
+                4.5 <span class="material-icons star-icon"> star </span>
+              </div>
+
+              <span class="card-price"
+                ><sup>₹</sup>2,970<s>5,499</s
+                ><span class="card-discount">Save 2,529 (46%)</span></span
+              >
+              <button class="card-btn primary-btn">BUY NOW</button>
+              <button class="card-btn card-icon-btn">
+                <span class="material-icons icon"> shopping_cart </span>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="../assets/products/p10.jpg" alt="demo" />
+            <div class="card-info">
+              <h5 class="card-title">God of War</h5>
+              <p class="description">PEGI Rating: Ages 16 and Above</p>
+              <div class="card-rating">
+                4.5 <span class="material-icons star-icon"> star </span>
+              </div>
+
+              <span class="card-price"
+                ><sup>₹</sup>2,970<s>5,499</s
+                ><span class="card-discount">Save 2,529 (46%)</span></span
+              >
+              <button class="card-btn primary-btn">BUY NOW</button>
+              <button class="card-btn card-icon-btn">
+                <span class="material-icons icon"> shopping_cart </span>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="../assets/products/p1.jpg" alt="demo" />
+            <div class="card-info">
+              <h5 class="card-title">God of War</h5>
+              <p class="description">PEGI Rating: Ages 16 and Above</p>
+              <div class="card-rating">
+                4.5 <span class="material-icons star-icon"> star </span>
+              </div>
+
+              <span class="card-price"
+                ><sup>₹</sup>2,970<s>5,499</s
+                ><span class="card-discount">Save 2,529 (46%)</span></span
+              >
+              <button class="card-btn primary-btn">BUY NOW</button>
+              <button class="card-btn card-icon-btn">
+                <span class="material-icons icon"> shopping_cart </span>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+          <div class="card">
+            <img class="card-img" src="../assets/products/p1.jpg" alt="demo" />
+            <div class="card-info">
+              <h5 class="card-title">God of War</h5>
+              <p class="description">PEGI Rating: Ages 16 and Above</p>
+              <div class="card-rating">
+                4.5 <span class="material-icons star-icon"> star </span>
+              </div>
+
+              <span class="card-price"
+                ><sup>₹</sup>2,970<s>5,499</s
+                ><span class="card-discount">Save 2,529 (46%)</span></span
+              >
+              <button class="card-btn primary-btn">BUY NOW</button>
+              <button class="card-btn card-icon-btn">
+                <span class="material-icons icon"> shopping_cart </span>
+                Add to Cart
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
