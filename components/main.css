@@ -2,6 +2,7 @@
 @import url(./homepg.css);
 @import url(./filter.css);
 @import url(./wishlist.css);
+@import url(./mycart.css);
 
 * {
   margin: 0;
@@ -29,5 +30,12 @@
   justify-content: center;
 }
 
+.gap-btwn{
+  gap: 1rem;
+}
+
+.spc-btwn {
+  justify-content: space-between;
+}
 
 

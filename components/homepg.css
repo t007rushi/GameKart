@@ -117,7 +117,3 @@ background-color: var(--primary-color);
     color: var(--white-color);
     padding: 1rem;
 }
-
-.gap-btwn{
-  gap: 1rem;
-}
