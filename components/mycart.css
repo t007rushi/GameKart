@@ -44,3 +44,17 @@
 .cart-save {
   text-align: left;
 }
+
+.cart-quant-cnt{
+    border: 1px solid var(--secondary-color);
+    padding: 0.1rem 0.4rem;
+    cursor: pointer;
+}
+
+.cart-quan-btn{
+    border-radius: 50%;
+    padding: 0.1rem 0.2rem;
+    background: transparent;
+    border: 1px solid var(--secondary-color);
+    cursor: pointer;
+}
