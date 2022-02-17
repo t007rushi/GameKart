@@ -1,0 +1,98 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://pushpa-ui.netlify.app/documentation/doc.css"
+    />
+    <link rel="stylesheet" href="../components/main.css" />
+    <link rel="stylesheet" href="./autheticate.css" />
+  </head>
+  <body class="flex-row center-it">
+    <header class="flex-row header-bar">
+      <div class="flex-row header-left">
+        <i class="material-icons header-icon"> menu </i>
+
+        <h1 class="flex-row web-logo">
+          <span class="material-icons header-icon"> sports_esports </span
+          >GameKart
+        </h1>
+      </div>
+      <div class="flex-row header-mid">
+        <i class="material-icons"> search </i>
+        <input type="text" placeholder="Search" class="search-bar" />
+      </div>
+      <div class="flex-row header-right">
+        <a href="../screens/LoginPage.html">
+          <button class="btn primary-btn">LOGIN</button></a
+        >
+        <a href="../screens/wishlist.html">
+          <div class="relative-container">
+            <i class="material-icons header-icon">
+              favorite_border
+              <div class="badge top-right lrg red-clr flex-row center-it">
+                3
+              </div></i
+            >
+          </div></a
+        >
+        <a href="../screens/mycart.html" class="cart">
+          <div class="flex-row relative-container">
+            <i class="material-icons header-icon"> shopping_cart </i>
+            <div class="badge top-right lrg red-clr flex-row center-it">2</div>
+          </div></a
+        >
+        <i class="material-icons header-icon"> logout </i>
+      </div>
+    </header>
+    <!--  -->
+    <div class="Auth-page-content">
+      <div class="flex-row form-wrap">
+        <img src="../assets/auth/matrix.jpg" alt="" class="form-img" />
+        <form class="flex-col center-it form-block">
+          <h2 class="form-title">SIGN UP</h2>
+          <label for="Name" class="flex-col form-input-txt"
+            >Name
+            <input type="text" class="form-input-box" />
+          </label>
+          <label for="email" class="flex-col form-input-txt"
+            >Email
+            <input
+              type="text"
+              class="form-input-box"
+              placeholder="monstar@neog.camp"
+          /></label>
+          <label for="password" class="flex-col form-input-txt"
+            >Password
+            <input type="password" class="form-input-box" />
+          </label>
+          <label for="password" class="flex-col form-input-txt"
+            >Confirm Password
+            <input type="password" class="form-input-box" />
+          </label>
+          <div class="flex-row center-it form-mid">
+            <input type="checkbox" name="" id="remember-me" />
+            <p class="form-text">
+              By continuing, you agree to Swift-UI
+              <a href="#" class="form-cond">Terms of Use </a> and
+              <a href="#" class="form-cond">Privacy Policy</a>
+            </p>
+          </div>
+          <button class="btn primary-btn">SIGN-UP</button>
+          <div class="flex-row">
+            <p>Already have an account?</p>
+            <a href="#" class="form-cond">Log In</a>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
