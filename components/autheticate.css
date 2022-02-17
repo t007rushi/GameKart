@@ -23,7 +23,7 @@
 
 .form-block {
   gap: 0.5rem;
-  background-color: white;
+  background-color: var(--white-color);
   border-bottom-right-radius: 1rem;
   border-top-right-radius: 1rem;
 }
@@ -34,7 +34,7 @@
 }
 
 .form-text {
-  color: #455a64;
+  color:var(--hmpg-secondary-color);
   font-weight: bold;
   cursor: pointer;
 }
@@ -47,7 +47,7 @@
   padding: 0.7rem 0;
   text-align: left;
   border: none;
-  border-bottom: 1px solid #ff751f;
+  border-bottom: 1px solid var(--btn-primary-color);
 }
 
 .form-input-box:focus {
@@ -60,12 +60,12 @@
 }
 .newAcc {
   cursor: pointer;
-  color: #455a64;
+  color: var(--hmpg-secondary-color);
   text-decoration: none;
 }
 
 /* sign-up */
 .form-cond {
-  color: #ff751f;
+  color: var(--btn-primary-color);
   text-decoration: none;
 }
