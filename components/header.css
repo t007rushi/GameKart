@@ -20,6 +20,11 @@
 align-items: center;
 color: var(--btn-primary-color);
 gap: 0.5rem;
+font-size: 2rem;
+}
+
+.web-logo-icon{
+  font-size: 2.5rem;
 }
 
 .header-mid {
@@ -59,4 +64,23 @@ gap: 0.5rem;
   font-size: 2rem;
   color: var(--head-primary);
   cursor: pointer;
+}
+
+.footer-block{
+  cursor:pointer;
+}
+
+.footer-social{
+  color:var(--hmpg-secondary-color);
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.footer-icon{
+  color:var(--hmpg-secondary-color);
+  cursor:pointer;
+}
+
+.footer-icon:hover{
+  color:var(--secondary-color);
 }
