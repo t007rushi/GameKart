@@ -17,26 +17,45 @@
   <body>
     <header class="flex-row header-bar">
       <div class="flex-row header-left">
-        <i style="font-size: 2.5rem" class="material-icons"> menu </i>
+        <i class="material-icons header-icon"> menu </i>
 
-        <h1 class="flex-row web-logo">
-          <span style="font-size: 2.5rem" class="material-icons">
-            sports_esports </span
-          >GameKart
-        </h1>
+        <a href="../index.html" class="hm-pg-link">
+          <h1 class="flex-row web-logo">
+            <span class="material-icons web-logo-icon"> sports_esports </span
+            >GameKart
+          </h1></a
+        >
       </div>
       <div class="flex-row header-mid">
         <i class="material-icons"> search </i>
-        <input type="text" placeholder="Search" class="search-bar" />
+        <input
+          type="text"
+          placeholder="Search varierty gaming products.."
+          class="search-bar"
+        />
       </div>
+      <a href="./LoginPage.html">
+        <button class="btn primary-btn">LOGIN</button></a
+      >
       <div class="flex-row header-right">
-        <button class="btn primary-btn">LOGIN</button>
-        <i class="material-icons"> favorite_border </i>
-        <div class="flex-row cart">
-          CART
-          <i class="material-icons"> shopping_cart </i>
-        </div>
-        <span class="material-icons"> logout </span>
+ 
+        <a href="./wishlist.html">
+          <div class="relative-container">
+            <i class="material-icons header-icon">
+              favorite_border
+              <div class="badge top-right lrg red-clr flex-row center-it">
+                3
+              </div></i
+            >
+          </div></a
+        >
+        <a href="./mycart.html" class="cart">
+          <div class="flex-row relative-container">
+            <i class="material-icons header-icon"> shopping_cart </i>
+            <div class="badge top-right lrg red-clr flex-row center-it">2</div>
+          </div></a
+        >
+        <i class="material-icons header-icon"> logout </i>
       </div>
     </header>
 
@@ -59,7 +78,7 @@
             <option value="high">discount</option>
           </select>
         </div>
-        <div class="filter-wrap flex-col">
+        <div class="filter-wrapper flex-col">
           <label for="price"><h4>Price Range</h4></label>
           <div class="flex-row spc-btwn">
             <h5>0</h5>
@@ -76,7 +95,7 @@
             value="2500"
           />
         </div>
-        <div class="type filter-wrap flex-col">
+        <div class="type filter-wrapper flex-col">
           <h2>Categories</h2>
           <div class="flex-row spac_bord">
             <input type="checkbox" name="" id="" />
@@ -91,7 +110,7 @@
             <label for="accessories">Accessories</label>
           </div>
         </div>
-        <div class="condition filter-wrap flex-col">
+        <div class="condition filter-wrapper flex-col">
           <h2>Conditions</h2>
           <div class="flex-row spac_bord">
             <input type="radio" name="cond" id="cond1" />
@@ -106,7 +125,7 @@
             <label for="cond3">Pre Order</label>
           </div>
         </div>
-        <div class="condition filter-wrap flex-col">
+        <div class="condition filter-wrapper flex-col">
           <h2>User Ratings</h2>
           <div class="flex-row spac_bord">
             <input type="radio" name="cond" id="cond1" />
@@ -125,7 +144,7 @@
             <label for="cond3">All</label>
           </div>
         </div>
-        <div class="genre filter-wrap flex-col">
+        <div class="genre filter-wrapper flex-col">
           <h2>Genre</h2>
           <div class="check flex-row spac_bord">
             <input type="checkbox" name="" id="" />
@@ -199,7 +218,7 @@
             </div>
           </div>
           <div class="card">
-            <img class="card-img" src="../assets/products/p3.png" alt="demo" />
+            <img class="card-img" src="../assets/products/p7.jpg" alt="demo" />
             <div class="card-info">
               <h5 class="card-title">God of War</h5>
               <p class="description">PEGI Rating: Ages 16 and Above</p>
@@ -239,7 +258,7 @@
             </div>
           </div>
           <div class="card">
-            <img class="card-img" src="../assets/products/p5.png" alt="demo" />
+            <img class="card-img" src="../assets/products/p10.jpg" alt="demo" />
             <div class="card-info">
               <h5 class="card-title">God of War</h5>
               <p class="description">PEGI Rating: Ages 16 and Above</p>
