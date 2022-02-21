@@ -58,3 +58,11 @@
     border: 1px solid var(--secondary-color);
     cursor: pointer;
 }
+
+.img-fit{
+  width: auto;
+}
+
+.cart-wrap{
+  flex-wrap: wrap;
+}

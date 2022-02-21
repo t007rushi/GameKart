@@ -1,15 +1,15 @@
 .left-side-filter {
-  width: 15rem;
+  width: 13rem;
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
   padding: 0.8rem;
   font-family: sans-serif;
 }
-.filter-wrap {
+.filter-wrapperper {
   gap: 1rem;
 }
-.filter-wrap label {
+.filter-wrapperper label {
   font-weight: bold;
   font-size: 1.2rem;
 }
@@ -35,8 +35,8 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, 16rem);
   grid-template-rows: repeat(auto-fit, 26rem);
-  row-gap: 1rem;
-  column-gap: 1rem;
+  row-gap: 9rem;
+  column-gap: 4rem;
 }
 
 .right-side-col {
@@ -57,11 +57,18 @@ select {
 
 .right-side-main {
   display: grid;
-  grid-template-rows: 5% 95%;
+  grid-template-rows: 3% 97%;
+  margin-left:0.3rem;
 }
 
 input[type="radio"],
 input[type="checkbox"] {
   width: 1.5em;
   height: 1.5em;
+}
+
+@media only screen and (max-width:868px){
+  .left-side-filter{
+    display: none;
+  }
 }
